@@ -1,4 +1,4 @@
-package DSA.Array;
+package DSA.Array.Prefix;
 
 public class SumOfElementsFromIndexLToRInArray {
 
@@ -25,7 +25,6 @@ public class SumOfElementsFromIndexLToRInArray {
 	}
 	
 	// Optimized version
-	
 	private static int rangeSum(int[] prefix, int l, int r) {
 		if(l == 0) {
 	        return prefix[r];
