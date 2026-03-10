@@ -1,0 +1,11 @@
+max()
+-Use when you want largest element in stream.
+-returns optional
+
+Comparator.comparingInt()
+-Use when comparison int property ke basis par karna ho.
+
+mapToInt()
+
+Use when:
+-object stream ko primitive int stream me convert karna ho
